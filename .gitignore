@@ -16,3 +16,4 @@ database/development.sqlite
 .idea/vcs.xml
 .idea/adonis-websocket-auth.iml
 .idea/modules.xml
+.idea/workspace.xml
