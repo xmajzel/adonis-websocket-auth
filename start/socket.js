@@ -15,6 +15,7 @@
 
 const Ws = use('Ws')
 
-Ws.channel('chat', ({ socket }) => {
+Ws.channel('chat', ({ socket,auth }) => {
   console.log('user joined with %s socket id', socket.id)
+  console.log(auth)
 }).middleware(['auth'])
